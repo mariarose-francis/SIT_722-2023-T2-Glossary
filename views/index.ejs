@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    table {
+      border-collapse: collapse; 
+      width: 10%;
+      border: 1px solid #000000; 
+    }
+
+    th, td {
+      border: 1px solid #000000; 
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1><b><u><%= title %></u></b></h1>
+  <h2><%= subtitle %></h2>
+  <table class="table"> 
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>Reference</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% names.forEach(function(item) { %>
+        <tr>
+          <td><%= item.id %></td>
+          <td><%= item.term %></td>
+          <td><%= item.definition %></td>
+          <td><%= item.reference %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>
