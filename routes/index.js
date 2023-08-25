@@ -40,7 +40,47 @@ const nameList = [
 
   {'id':10, 'term':'Version Control', 
   'definition':'Version Control is a mechanism of managing each change made to souce code.', 
-  'reference':'https://about.gitlab.com/topics/devops/'}
+  'reference':'https://about.gitlab.com/topics/devops/'},
+
+  {'id':11, 'term':'Microservices application', 
+  'definition':'A microservices application is a cluster of small microservices that does a single job independently. These small microservices together build up a microservices application. This approach makes it easier to develop and update the application.', 
+  'reference':'https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/01.htm#heading_id_8'},
+  
+  {'id':12, 'term':'Scrum', 
+  'definition':'Scrum is a framework where a team can work on a product in a more collaborative way to ensure quality and timely delivery of products.', 
+  'reference':'https://www.atlassian.com/agile/scrum'},
+  
+  {'id':13, 'term':'DIY DevOps', 
+  'definition':'DIY DevOps (Do-It-Yourself DevOps) refers to the practice of setting up and managing DevOps processes and tools independently, without relying on dedicated DevOps teams or specialized services', 
+  'reference':'https://www.synopsys.com/glossary/what-is-devops.html'},
+  
+  {'id':14, 'term':'DevOps Lifecycle', 
+  'definition':'The DevOps lifecycle is a set of stages that takes through the planning, building, testing and monitoring of a software. The stages of the DevOps lifecycle are plan, create, Verify, Preprod, Release, Configure, Monitor.', 
+  'reference':'https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/01.htm#heading_id_8'},
+  
+  {'id':15, 'term':'Kanban', 
+  'definition':'Kanban is a framework similar to scrum, which is used to manage product delivery in an effective manner. It enhance team collaboration and efficiency in working collectively.', 
+  'reference':'https://www.synopsys.com/glossary/what-is-devops.html'},
+  
+  {'id':16, 'term':'Infrastructure as Code', 
+  'definition':'Infrastructure as Code (IaC) involves using code to manage and set up infrastructure, replacing the need for manual procedures. IaC increases consistency, speeds up deployment, and reduces manual errors in managing complex environments.', 
+  'reference':'https://www.redhat.com/en/topics/automation/'},
+  
+  {'id':17, 'term':'Distributed Application', 
+  'definition':'In distributed application each microservice works to accomplish a single feature. Different parts of the application run on separate computers, communicating to achieve a common goal.', 
+  'reference':'https://aws.amazon.com/compare/the-difference-between-monolithic-and-microservices-architecture/'},
+  
+  {'id':18, 'term':'Monolithic Application', 
+  'definition':'A monolithic application has all or most of its functionality within a single process or container. The entire application is built as a single, tightly integrated unit.',
+  'reference':'https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/monolithic-applications'},
+  
+  {'id':19, 'term':'Kubernetes', 
+  'definition':'Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.', 
+  'reference':'https://kubernetes.io/'},
+  
+  {'id':20, 'term':'Docker compose', 
+  'definition':'Docker Compose lets you configure, build, run, and manage multiple containers at the same time.', 
+  'reference':'https://docs.docker.com/get-started/08_using_compose/'},
   
 
 ];
