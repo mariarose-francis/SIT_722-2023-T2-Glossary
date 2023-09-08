@@ -82,7 +82,45 @@ const nameList = [
   'definition':'Docker Compose lets you configure, build, run, and manage multiple containers at the same time.', 
   'reference':'https://docs.docker.com/get-started/08_using_compose/'},
   
+  {'id':21, 'term':'RabbitMQ', 
+  'definition':'RabbitMQ is like a messenger for computer programs.It is an open-source message broker that facilitates reliable communication between different parts of a distributed system using message queues and exchanges.', 
+  'reference':'https://en.wikipedia.org/wiki/RabbitMQ'},
 
+  {'id':22, 'term':'MongoDB', 
+  'definition':'MongoDB is an open-source NoSQL database system notable for its flexibility, scalability, and speed in handling diverse data types, commonly used in web applications.', 
+  'reference':'https://en.wikipedia.org/wiki/MongoDB'},
+
+  {'id':23, 'term':'Advanced Message Queuing Protocol', 
+  'definition':'Advanced Message Queuing Protocol (AMQP) is created as an open standard protocol that allows messaging interoperability between systems, regardless of message broker vendor or platform used', 
+  'reference':'https://www.cloudamqp.com/blog/what-is-amqp-and-why-is-it-used-in-rabbitmq.html'},
+
+  {'id':24, 'term':'NetApp', 
+  'definition':'NetApp is a company that provides data storage and management solutions for businesses. They help organizations store, organize, and access their data securely and efficiently, making it easier to manage and use digital information.', 
+  'reference':'https://www.netapp.com/'},
+
+  {'id':25, 'term':'Containers', 
+  'definition':'Containers are a method of building, packaging and deploying software. It includes the program itself, its dependencies, and settings, making it easy to run the same program on different computers without any problems', 
+  'reference':'https://www.vmware.com/au/topics/glossary/content/container-deployment.html'},
+
+  {'id':26, 'term':'Docker Image', 
+  'definition':'A Docker image is a file used to run code within a Docker container. It serves as a blueprint for creating containers and serves as the initial setup for Docker operations.', 
+  'reference':'https://www.docker.com/'},
+
+  {'id':27, 'term':'Yaml file', 
+  'definition':'A YAML (YML) file is a configuration file used in Docker Compose. It enables the simultaneous deployment, combination, and configuration of multiple Docker containers. This simplifies the management of complex containerized applications by defining their setup and relationships in a structured and easy-to-read format.', 
+  'reference':'https://docs.docker.com/compose/'},
+
+  {'id':28, 'term':'JSON', 
+  'definition':'JSON (JavaScript Object Notation) is a way to write down data in a simple text format that both humans and computers can understand easily. It is used to package information like lists, numbers, and objects, making it simple to exchange data between servers and web applications over the internet.', 
+  'reference':'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON'},
+
+  {'id':29, 'term':'Azure Storage', 
+  'definition':'Azure file storage is a cloud service that can replace or enhance traditional file servers and storage devices. It allows various operating systems like Windows, macOS, and Linux to easily access files stored in Azure from anywhere globally. This makes it flexible and convenient for businesses to manage and share their files.', 
+  'reference':'https://azure.microsoft.com/en-us/services/storage/'},
+
+  {'id':30, 'term':'Node.js', 
+  'definition':'Node.js is a technology for creating speedy and adaptable network applications. It is based on Chromes JavaScript system and uses an efficient approach for handling data, making it great for real-time applications on multiple devices.', 
+  'reference':'https://www.tutorialspoint.com/nodejs/index.htm'},
 ];
 
 /* GET home page. */
