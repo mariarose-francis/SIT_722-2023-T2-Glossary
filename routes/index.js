@@ -121,6 +121,87 @@ const nameList = [
   {'id':30, 'term':'Node.js', 
   'definition':'Node.js is a technology for creating speedy and adaptable network applications. It is based on Chromes JavaScript system and uses an efficient approach for handling data, making it great for real-time applications on multiple devices.', 
   'reference':'https://www.tutorialspoint.com/nodejs/index.htm'},
+
+  {'id':31, 'term':'Minikube', 
+  'definition':'Minikube is a user-friendly, lightweight tool for learning and developing applications on Kubernetes by setting up a single-node cluster on your local machine. It simplifies Kubernetes experimentation and development with a minimalistic, local environment.', 
+  'reference':'https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/'},
+
+  {'id':32, 'term':'Npm', 
+  'definition':'npm, short for Node Package Manager, is a widely used package manager for JavaScript programming. It allows developers to easily install, manage, and share libraries and packages of code to enhance their projects, making it a fundamental tool in the Node.js ecosystem.', 
+  'reference':'https://en.wikipedia.org/wiki/Npm'},
+
+  {'id':33, 'term':'Localhost', 
+  'definition':'Localhost is a special hostname in computer networking that points to the current computer itself, primarily used for accessing network services running on the same machine via the loopback network interface, serving loopback purposes.', 
+  'reference':'https://en.wikipedia.org/wiki/Localhost'},
+
+  {'id':34, 'term':'Shell script', 
+  'definition':'Shell scripts are text files containing a series of commands written in a shell-specific scripting language, like Bash, designed to automate tasks and processes on a computers command-line interface. ', 
+  'reference':'https://www.techtarget.com/searchdatacenter/definition/shell-script'},
+
+  {'id':35, 'term':'Ansible', 
+  'definition':'Ansible is a suite of software tools that enables infrastructure as code. It is open-source and the suite includes software provisioning, configuration management, and application deployment functionality', 
+  'reference':'https://en.wikipedia.org/wiki/Ansible_(software)'},
+
+  {'id':36, 'term':'Puppet ', 
+  'definition':'Puppet is a software configuration management tool which includes its own declarative language to describe system configuration.', 
+  'reference':'https://en.wikipedia.org/wiki/Puppet_(software)'},
+
+  {'id':37, 'term':'Hashicorp Configuration Language (HCL) code', 
+  'definition':'HCL code is a set of instructions used to describe how to create and manage computer infrastructure, making it easier for people to set up and control their cloud resources with clear and organized instructions.', 
+  'reference':'https://www.shecodes.io/athena/2110-what-is-hcl-infrastructure-automation-language'},
+
+  {'id':38, 'term':'Azure CLI', 
+  'definition':'It is an Azure command-line tool used to authenticate with Azure and give Terraform access to our Azure account. ', 
+  'reference':'https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/06.htm'},
+
+  {'id':39, 'term':'Kubernetes clusters ', 
+  'definition':'Kubernetes clusters are comprised of one master node and a number of worker nodes. These nodes can either be physical computers or virtual machines, depending on the cluster', 
+  'reference':'https://www.vmware.com/au/topics/glossary/content/kubernetes-cluster.html'},
+
+  {'id':40, 'term':'Docker Swarm', 
+  'definition':'Docker Swarm helps to take care of lots of containers all at once. It makes sure they work together, stay balanced, and find each other easily, which makes it simpler to handle many of these little programs when you need to.', 
+  'reference':'https://docs.docker.com/engine/swarm/'},
+
+  {'id':41, 'term':'Virtual Machine(VM)', 
+  'definition':'A virtual machine is like a computer inside your computer. It acts like a real computer, and can be used to run different operating systems or even have a whole new computer inside your computer.', 
+  'reference':'https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-a-virtual-machine'},
+
+  {'id':42, 'term':'Nodemon ', 
+  'definition':'Nodemon is a command-line tool that helps with the speedy development of Node. js applications. It monitors your project directory and automatically restarts your node application when it detects any changes.', 
+  'reference':'https://learning.oreilly.com/library/view/server-side-development/9781789345391/e2ac19e3-1bb0-4a10-8baf-3ea96b77c5b2.xhtml'},
+
+  {'id':43, 'term':'Terraform', 
+  'definition':'Terraform, by HashiCorp, is a tool for coding and automating cloud infrastructure, streamlining resource provisioning and management with code-based simplicity. It automates infrastructure deployment, enhancing efficiency and consistency.', 
+  'reference':'https://en.wikipedia.org/wiki/Terraform_(software)'},
+
+  {'id':44, 'term':'Dependencies', 
+  'definition':'Dependencies are like essential parts that software needs inorder to function properly. They include libraries or modules and are automatically added when you set up or run the software, ensuring it has all the necessary resources to work correctly.', 
+  'reference':'https://learn.microsoft.com/en-us/azure/azure-monitor/app/asp-net-dependencies'},
+
+  {'id':45, 'term':'Docker volumes', 
+  'definition':'Docker volumes are like storage compartments for Docker containers. They provide a way to persist data and share it between containers or between the host machine and containers. This is essential for storing important information such as databases, configuration files, or application data, ensuring that data is not lost when a container is stopped or removed.', 
+  'reference':'https://earthly.dev/blog/docker-volumes/'},
+
+  {'id':46, 'term':'Software as a service', 
+  'definition':'Software as a service (or SaaS) is a way of delivering applications over the Internet—as a service. Instead of installing and maintaining software, you simply access it via the Internet, freeing yourself from complex software and hardware management.', 
+  'reference':'https://www.salesforce.com/au/saas/'},
+
+  {'id':47, 'term':'OpenShift', 
+  'definition':'OpenShift, created by Red Hat, is a platform that helps with managing containerized applications using Kubernetes as its foundation. It offers a suite of tools to simplify the development and deployment of applications in a container-based and cloud-native environment, making it more accessible for organizations.', 
+  'reference':'https://www.tutorialspoint.com/openshift/index.htm'},
+
+  {'id':48, 'term':'Jenkins', 
+  'definition':'Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.', 
+  'reference':'https://en.wikipedia.org/wiki/Jenkins_(software)'},
+
+  {'id':49, 'term':'Alpine Linux', 
+  'definition':'Alpine Linux is a compact, secure, and minimalistic Docker image built on musl libc and BusyBox. Its tiny footprint, sometimes as small as 5MB, allows for speedy deployment, making it well-suited for microservices or large clusters.', 
+  'reference':'https://www.linkedin.com/advice/0/how-do-you-scale-deploy-docker-alpine-ubuntu-containers'},
+
+  {'id':50, 'term':'Kubectl', 
+  'definition':'The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.', 
+  'reference':''},
+
 ];
 
 /* GET home page. */
